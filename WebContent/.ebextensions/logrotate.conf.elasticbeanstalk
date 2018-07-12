@@ -1,0 +1,12 @@
+/var/log/tomcat8/* {
+	size 1M
+    rotate 1000
+	missingok
+    nocompress
+	notifempty
+    nomail
+	copytruncate
+	dateext
+	dateformat %s
+	olddir /var/log/tomcat8/rotated
+}

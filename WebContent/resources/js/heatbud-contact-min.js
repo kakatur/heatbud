@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#contactbutton").click(function(a){if(document.getElementById("contactName").value.trim().length==0){$("#error").text("Please enter your Name.");return false}if(document.getElementById("contactSubject").value.trim().length==0){$("#error").text("Please enter a Subject.");return false}})});

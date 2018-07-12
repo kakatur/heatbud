@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webflow-project-description>
+	<version>1</version>
+	<pluginVersion><![CDATA[3.3.0.201307091516-RELEASE]]></pluginVersion>
+	<configs>
+		<config>
+			<file>WebContent/resources/js/ckeditor/plugins/slideshow/icons.xml</file>
+			<name><![CDATA[icons]]></name>
+		</config>
+	</configs>
+</webflow-project-description>
