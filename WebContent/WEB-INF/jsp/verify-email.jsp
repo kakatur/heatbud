@@ -30,7 +30,7 @@
 		</td>
 		<td style="float:right; font-size:13px; padding-top:14px; padding-bottom:6px">
 			<div style="float:left; margin-right:8px"><a href="/top/posts-trending-now" class="mainSelection">TOP CHARTS</a></div>
-			<div style="float:left; margin-right:8px"><a href="/post/singing-bowls-pashmina-the-softness-of-gold" class="mainSelection">BLOG POSTS</a></div>
+			<div style="float:left; margin-right:8px"><a href="/post/singing-bowls-singing-bowls-a-do-it-yourself-method-to-wellness" class="mainSelection">BLOG POSTS</a></div>
 			<div style="float:left; margin-right:8px"><a href="/do/search" class="mainSelection">SEARCH</a></div>
 			<div style="float:left; margin-right:8px"><a href="/do/help" class="mainSelection">HELP CENTER</a></div>
 			<div style="float:left"><a href="/do/login" class="mainSelection">LOGIN / SIGNUP</a></div>
