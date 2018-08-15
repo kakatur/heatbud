@@ -58,7 +58,7 @@
 		</td>
 		<td style="float:right; font-size:13px; padding-top:14px; padding-bottom:6px">
 			<div style="float:left; margin-right:8px"><a href="/top/posts-trending-now" class="mainSelection">TOP CHARTS</a></div>
-			<div style="float:left; margin-right:8px"><a href="/post/singing-bowls-singing-bowls-a-do-it-yourself-method-to-wellness" class="mainSelection">BLOG POSTS</a></div>
+			<div style="float:left; margin-right:8px"><a href="/post/singing-bowls-singing-bowls-and-chakras" class="mainSelection">BLOG POSTS</a></div>
 			<div style="float:left; margin-right:8px"><a href="/do/search" class="mainSelection">SEARCH</a></div>
 			<div style="float:left; margin-right:8px"><a href="/do/help" class="mainSelection">HELP CENTER</a></div>
 			<sec:authorize access="!isAuthenticated()">
@@ -96,21 +96,22 @@
 				<div style="margin-left:40px"><a href="/do/help">&lt; &nbsp;Back to Help Center</a></div>
 			</c:if>
 		</div>
-		<div style="float:left; text-align:left; max-width:50%; border:1px solid #e9eaed; padding:20px; margin-top:10px; font-size:1.1em">
-				<div style="width:120%; background-color:#87bdd8; border-radius:4px; padding:16px; margin-top:10px; margin-bottom:20px">
-					<div style="color:yellow; font-size:1.4em">Join the Social Blogging revolution!</div>
-					<div style="width:38%; float:left; color:white; font-size:1.4em">
-						<div>For Bloggers</div>
-						<div style="font-size:0.7em"><a style="color:white" href="/do/help/main/pricing">&bull; I want to earn followers</a></div>
-						<div style="font-size:0.7em"><a style="color:white" href="/do/help/main/pricing">&bull; I want to earn money</a></div>
-					</div>
-					<div style="width:60%; float:left; color:white; font-size:1.4em">
-						<div>For Businesses</div>
-						<div style="font-size:0.7em"><a style="color:white" href="/do/help/main/why-1">&bull; I want to create a new website</a></div>
-						<div style="font-size:0.7em"><a style="color:white" href="/do/help/main/why-1">&bull; I want to add Social Blog to my existing website</a></div>
-					</div>
-					<div style="clear:both"></div>
+		<div style="float:left; text-align:left; max-width:60%; border:1px solid #e9eaed; padding:20px; margin-top:10px; font-size:1.1em">
+			<div style="background-color:#87bdd8; border-radius:4px; padding:16px; margin:0 auto">
+				<div style="color:yellow; font-size:1.4em">Join the Social Blogging revolution!</div>
+				<div style="width:38%; float:left; color:white; font-size:1.4em">
+					<div>For Bloggers</div>
+					<div style="font-size:0.7em"><a style="color:white" href="/do/help/main/pricing">&bull; I want to earn followers</a></div>
+					<div style="font-size:0.7em"><a style="color:white" href="/do/help/main/pricing">&bull; I want to earn money</a></div>
 				</div>
+				<div style="width:60%; float:left; color:white; font-size:1.4em">
+					<div>For Businesses</div>
+					<div style="font-size:0.7em"><a style="color:white" href="/do/help/main/why-1">&bull; I want to create a new website</a></div>
+					<div style="font-size:0.7em"><a style="color:white" href="/do/help/main/why-1">&bull; I want to add Social Blog to my existing website</a></div>
+				</div>
+				<div style="clear:both"></div>
+			</div>
+			<div style="margin-bottom:20px"></div>
 			<c:import url="/resources/help/${navigation}-${content}.html"/>
 		</div>
 		<div style="float:left; width:20%"></div>

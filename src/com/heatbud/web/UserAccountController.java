@@ -555,7 +555,7 @@ public class UserAccountController {
 	            while ((inputLine = in.readLine()) != null) response.append(inputLine);
 	            in.close();
 	            JSONObject jsonResponse = new JSONObject(response.toString());
-	            country = jsonResponse.getString("countryName");
+	            try { country = jsonResponse.getString("countryName"); } catch (Exception e) { country = "United States"; }
 	            try { state = jsonResponse.getString("stateProv"); } catch (Exception e) { state = country; }
 	            try { city = jsonResponse.getString("city"); } catch (Exception e) { city = state; }
         	} catch (Exception e) {
@@ -725,7 +725,7 @@ public class UserAccountController {
 	            while ((inputLine = in.readLine()) != null) response.append(inputLine);
 	            in.close();
 	            JSONObject jsonResponse = new JSONObject(response.toString());
-	            country = jsonResponse.getString("countryName");
+	            try { country = jsonResponse.getString("countryName"); } catch (Exception e) { country = "United States"; }
 	            try { state = jsonResponse.getString("stateProv"); } catch (Exception e) { state = country; }
 	            try { city = jsonResponse.getString("city"); } catch (Exception e) { city = state; }
         	} catch (Exception e) {

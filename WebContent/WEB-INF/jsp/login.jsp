@@ -80,7 +80,7 @@
 			</div>
 			<div style="float:right; padding-right:10px">
 				<div style="float:left; padding:30px 15px 20px 15px"><a href="/top/posts-trending-now#topChartsAnchor" class="mainSelection">TOP CHARTS</a></div>
-				<div style="float:left; padding:30px 15px 20px 15px"><a href="/post/singing-bowls-singing-bowls-a-do-it-yourself-method-to-wellness" class="mainSelection">BLOG POSTS</a></div>
+				<div style="float:left; padding:30px 15px 20px 15px"><a href="/post/singing-bowls-singing-bowls-and-chakras" class="mainSelection">BLOG POSTS</a></div>
 				<div style="float:left; padding:30px 15px 20px 15px"><a href="/do/search" class="mainSelection">SEARCH</a></div>
 				<div style="float:left; padding:30px 15px 20px 15px"><a href="/do/help" class="mainSelection">HELP CENTER</a></div>
 			</div>
